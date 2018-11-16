@@ -30,10 +30,19 @@ USE_TZ = True
 ```
 ## 设置邮箱
 编辑`settings.py`文件，添加邮箱设置：
+163邮箱:
 ```
 EMAIL_HOST = 'smtp.163.com'
 EMAIL_HOST_USER = 'bluejack86@163.com'
 EMAIL_HOST_PASSWORD = '邮箱的授权码而非密码'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
+```
+hotmail邮箱:
+```
+EMAIL_HOST = 'smtp-mail.outlook.com'
+EMAIL_HOST_USER = 'your_account@hotmail.com'
+EMAIL_HOST_PASSWORD = 'your_password'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 ```
